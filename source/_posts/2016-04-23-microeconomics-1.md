@@ -145,6 +145,14 @@ keywords:
 {% asset_img MindMap.png %}
 
 
+# 参考资料
+
+- 「微观经济学」第七版 - 曼昆
+
+# 修改日志
+
+- 2016年4月23日 首次发布
+
 [microeconomics]: https://zh.wikipedia.org/wiki/%E5%BE%AE%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6
 [macroeconomics]: https://zh.wikipedia.org/wiki/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6
 
