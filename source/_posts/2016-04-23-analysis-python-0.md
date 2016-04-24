@@ -82,6 +82,11 @@ Python 3.5.1的源代码组织结构如下所示:
 # 参考资料
 
 - [Python源码分析4 – Grammar文件和语法分析](http://blog.csdn.net/atfield/article/details/1457035)
+- Python源码剖析
+
+# 修改日志
+
+- 2016年4月23日 首次发布
 
 [ANSI C]: https://zh.wikipedia.org/wiki/ANSI_C
 [Python]: http://python.org/
