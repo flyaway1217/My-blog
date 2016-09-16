@@ -51,10 +51,15 @@ Three usefule methods of objects created from `collections.namedtuple`:
 - `_make(iterable)` instantiate a named tuple from a iterable.
 - `_asdict()` returns a `collections.OrderDict` built from the named tuple instance.
 
-### Tuples as immutable lists
+# Sorted
 
+`bisect`: a standard library that use binary search algorithm to quickly find and insert items in any sorted sequence.
 
-# Slicing
+# Arrays
+
+If all you want to put in the list are numbers, an `array.array` is more efficient than a list.
+
+`array.array` also have `tofile` and `fromfile` methods.
 
 # Tips
 
