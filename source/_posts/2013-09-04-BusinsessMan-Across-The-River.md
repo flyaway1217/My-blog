@@ -3,7 +3,7 @@ layout: post
 date: 2013/09/04
 title: 商人过河问题
 categories: 
-    - Algorithm
+    - algorithm
 keywords: 图,搜索算法,建模
 tags: 
     - 图

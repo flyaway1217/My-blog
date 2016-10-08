@@ -3,7 +3,7 @@ layout: post
 date: 2014/02/20
 title: 随机算法学习笔记0-概率空间and计算模型
 categories: 
-    - randomized algorithm
+    - randomized-algorithm
 keywords: 随机算法,Probability Space,Monte Carlo,Las Vegas
 tags: 
     - randomized algorithm

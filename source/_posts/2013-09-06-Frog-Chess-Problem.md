@@ -3,7 +3,7 @@ layout: post
 date: 2013/09/06
 title: Frog Chess问题
 categories: 
-    - Algorithm
+    - algorithm
 keywords: 三只青蛙交换位置,Frog Chess,深度优先搜索,广度优先搜索
 tags: 
     - 深度优先搜索
