@@ -8,7 +8,7 @@ keywords: 随机算法,Monty Hall
 tags: 
     - 随机算法
     - Monty Hall
-    - Randomized Algorithm
+    - randomized algorithm
 description: 本文从概率角度阐述了Monty Hall问题。
 ---
 

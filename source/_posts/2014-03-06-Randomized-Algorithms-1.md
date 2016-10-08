@@ -6,7 +6,7 @@ categories:
     - randomized-algorithm
 keywords: 随机算法,多元多项式判定问题,最小割,最大流
 tags: 
-    - Randomized Algorithm
+    - randomized algorithm
 description: 随机算法学习笔记1,主要分析了两个应用随机算法的例子，相对之前的学习笔记0中的例子，本次笔记中的两个例子要相对复杂一些，且更加有趣。
 ---
 

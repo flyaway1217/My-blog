@@ -6,7 +6,7 @@ categories:
     - randomized-algorithm
 keywords: 随机算法,Random Varibles,Expectation
 tags: 
-    - Randomized Algorithm
+    - randomized algorithm
 description: 随机算法学习笔记2,这次的重点是随机变量、几个常见分布的期望以及相应的几个例子。
 ---
 
