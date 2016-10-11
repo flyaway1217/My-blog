@@ -22,9 +22,9 @@ date: 2016-10-10 22:02:01
 但是现在随着学习的深入，逐渐领悟到了更多的东西，逐渐理清了整个体系。
 因此，觉得有必要再好好整理输出一下，加深理解。
 
-# Percpetron(感知机)
+# Perceptron(感知机)
 
-[Percpetron(感知机)][Percpetron]算是机器学习中最简单的模型之一了，其基本框架如下所示:
+[Perceptron(感知机)][Perceptron]算是机器学习中最简单的模型之一了，其基本框架如下所示:
 
 **Input**: A sequence of training examples $(x_1,y_1),(x_2,y_2),\cdots$, 其中$x_i\in R^n,y_i\in \\{-1,1\\}$
 
@@ -36,17 +36,17 @@ date: 2016-10-10 22:02:01
 
 # Perceptron的Mistake Bound
 
-Percpetron是针对线性可分数据的一种分类器，它属于[Online Learning][]的算法。
-我在之前的一篇博文中提到了[Online Learning][]模型的Mistake Bound衡量标准。
-现在我们就来分析一下Percpetron的Mistake Bound是多少。
+Perceptron是针对线性可分数据的一种分类器，它属于[Online Learning][]的算法。
+我在之前的一篇{% post_link Mistake-Bound-Algorithm 博文 %}中提到了[Online Learning][]模型的Mistake Bound衡量标准。
+现在我们就来分析一下Perceptron的Mistake Bound是多少。
 
 在分析其Mistake Bound之前，我们首先需要定义几个概念。
 
 1. 我们使用$R$表示训练数据集中距离原点最远的点的距离。
     也就是说，对于数据集$(x_1,y_1),(x_2,y_2),\cdots,(x_m,y_m)$来说，其中任意一个实例$(x_i,y_i)$都满足$\Vert x_i \Vert\le R$.
-2. Percpetron最终学习到的其实是一个分割正负例数据的超平面，我们定义数据集中距离超平面距离最近的点的距离为$\gamma$
+2. Perceptron最终学习到的其实是一个分割正负例数据的超平面，我们定义数据集中距离超平面距离最近的点的距离为$\gamma$
 
-在定义了上述两个概念之后，我们就能给出结论:Percpetron的Mistake Bound是: $(\frac{R}{\gamma})^2$.
+在定义了上述两个概念之后，我们就能给出结论:**Perceptron的Mistake Bound是: $(\frac{R}{\gamma})^2$**.
 
 也就是说，Perceptron在训练集上最多会犯$(\frac{R}{\gamma})^2$次错误.
 这被称为**Novikoff定理**.
@@ -87,7 +87,7 @@ u^Tw_{t+1} &= u^T(w_t+y_ix_i)\\
 又因为$w$的初始值为$0$向量，利用归纳法，我们能得到$u^Tw_t\ge t\gamma$.
 
 
-## 2. $\Vert w_t\Vert \le tR^2$
+## 2. $\Vert w_t\Vert^2 \le tR^2$
 
 假设Perceptron载学习过程中已经犯了$t$次错误，则:
 
@@ -104,7 +104,7 @@ u^Tw_{t+1} &= u^T(w_t+y_ix_i)\\
 2. 第一个不等号是根据$R$的定义得到的
 3. 第二个不等号是因为根据Perceptron的更新条件:$w_t x_i y_i <0$.
 
-又因为$w$的初始值为$0$向量，利用归纳法，我们能得到$\Vert w_t\Vert \le tR^2$.
+又因为$w$的初始值为$0$向量，利用归纳法，我们能得到$\Vert w_t\Vert^2 \le tR^2$.
 
 
 ## 综合
@@ -140,6 +140,7 @@ Novikoff定理说明了Perceptron的可学习性，也就是说针对任意的�
 # 更新日志
 
 - 2016年10月10日完成初稿并发布。
+- 2016年10月11日修正了一些书写错误。
 
 [Perceptron]: https://en.wikipedia.org/wiki/Perceptron
 [Online Learning]: https://en.wikipedia.org/wiki/Online_machine_learning
