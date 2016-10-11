@@ -50,15 +50,18 @@ Mistake Bound用一个模型在停止训练前所犯的错误次数来衡量一�
 
 首先，我们需要给出两个定义:
 
-1. $M_A(f,S)$表示: 算法$A$在训练序列$S$学习目标函数$f$所犯的错误次数。
+1. $M_A(f,S)$表示: 算法$A$在训练序列$S$上学习目标函数$f$时所犯的错误次数。
 2. $M_A(C)=\max\limits_{f,S}M_A(f,S)$表示: 算法$A$在任意的训练序列$S$上学习任意的目标函数$f$时最多所犯的错误次数。
 
-则，如果一个算法$A$满足$M_A(C)$和特征空间的维度$n$是多项式关系的，那么我们就称算法$A$是一个**Mistake Bound Algorithm**.
+则，如果一个算法$A$满足:*$M_A(C)$和特征空间的维度$n$是多项式关系的*，那么我们就称算法$A$是一个**Mistake Bound Algorithm**.
+这里的$n$用来表示问题的输入规模，而$M_A(C)$表示问题的学习代价，如果这两个值是多项式关系的，那么该算法的犯错次数是有一个上界的。
 
 
 # Generic Mistake Bound Algorithm
 
+我们首先介绍一种最基本的Mistake Bound Algorithm.
 抽象的常规Mistake Bound Algorithm的学习流程如下所示:
+
 在每一次的迭代过程中:
 1. $H_i$表示在第$i$步时的假设空间。
 2. 随机地从$H_i$中取出一个函数$h\in H_i$,然后用它去进行预测。
@@ -66,7 +69,7 @@ Mistake Bound用一个模型在停止训练前所犯的错误次数来衡量一�
 4. 我们得到$H_{i+1}\subseteq H_i$.如果发生了错误，那么$\mid H_{i+1}\mid < \mid H_i \mid$.
 
 不断循环重复上述过程，我们就能逐渐缩小$H_i$，直至$H_i$只剩下一个假设函数。
-因此这个算法最多会犯$\mid H\mid-1$次错误。
+因此这个算法最多会犯$\mid H_0\mid-1$次错误。
 
 很明显，这个算法其实就是一种穷举的方式，尝试假设空间中所有的函数，直至只剩下最后一个。
 因此它的Mistake Bound就是它假设空间的大小。
@@ -117,7 +120,8 @@ Mistake Bound限制了一个学习算法在停止前的犯错次数，这对于O
 
 # 更新日志
 
-1. 2016年10月9日写成初稿并发布。
+- 2016年10月9日写成初稿并发布。
+- 2016年10月11日 润色部分细节问题
 
 [Online Learning]: https://en.wikipedia.org/wiki/Online_machine_learning
 [Vivek]: http://svivek.com/teaching/machine-learning/fall2016/lectures/06-online-learning-perceptron.html
