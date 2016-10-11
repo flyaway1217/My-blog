@@ -1,12 +1,16 @@
 ---
 title: Mistake Bound Algorithm
-tags: 
-    - mistake-bound-algorithm
-    - Halving
+tags:
+  - mistake-bound-algorithm
+  - Halving
 categories: machine-learning
-keywords:
 description: Mistake Bound Algorithm的理解。 1. Generic Mistake Bound Algorithm 2. Halving Algorithm
+date: 2016-10-10 20:04:51
+keywords:
 ---
+
+
+
 
 
 # 前言
@@ -112,6 +116,8 @@ Mistake Bound限制了一个学习算法在停止前的犯错次数，这对于O
 - Vivek Srikumar教授的[课件][Vivek]
 
 # 更新日志
+
+1. 2016年10月9日写成初稿并发布。
 
 [Online Learning]: https://en.wikipedia.org/wiki/Online_machine_learning
 [Vivek]: http://svivek.com/teaching/machine-learning/fall2016/lectures/06-online-learning-perceptron.html
