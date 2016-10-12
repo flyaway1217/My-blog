@@ -28,7 +28,7 @@ date: 2016-10-10 22:02:01
 
 **Input**: A sequence of training examples $(x_1,y_1),(x_2,y_2),\cdots$, 其中$x_i\in R^n,y_i\in \\{-1,1\\}$
 
-1. 初始化: $w_0=0\in R^n$
+1. 初始化: $w_0=0\in R^{n+1}$
 2. 对于每一个训练样本$(x_i,y_i)$:
     - 使用权重$w_t$进行预测:{% math %}y^{'}=sgn(x_t^T x_i){% endmath %}
     - 如果$y_i\neq y^{'}$: 更新$w_{t+1}=w_t+r(y_ix_i)$
