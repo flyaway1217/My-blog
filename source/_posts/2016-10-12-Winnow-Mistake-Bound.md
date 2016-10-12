@@ -1,17 +1,21 @@
 ---
 title: Winnow算法及其Mistake Bound
 tags:
-    - mistake-bound
-    - Winnow
-    - machine-learning
+  - mistake-bound
+  - Winnow
+  - machine-learning
 categories:
-    - machine-learning
+  - machine-learning
 keywords:
-    - mistake-bound
-    - Winnow
-    - machine-learning
-description:
+  - mistake-bound
+  - Winnow
+  - machine-learning
+description: Winnow算法的介绍及其Mistake Bound的证明。
+date: 2016-10-12 15:59:09
 ---
+
+
+
 
 # Winnow算法
 
