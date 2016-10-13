@@ -117,6 +117,19 @@ NP-Complete问题到目前为止还没人能找出其多项式时间内的解，
 
 {% asset_img NP-space.png NP的空间(假设$P\neq NP$)  %}
 
+下表列举了一些**NP-Complete**和**P**问题
+
+| **Hard Problems(NP-complete)** |   **Easy Problems(P)**   |
+|:------------------------------:|:------------------------:|
+|              3SAT              |      2SAT, Horn SAT      |
+|          Longest Path          |   Minimum Spanning Tree  |
+|           3D Matching          |    Bipartite Matching    |
+|            Knapsack            |      Unary Knapsack      |
+|         Independent Set        | Independent Set on Trees |
+|   Integer Linear Programming   |    Linear Programming    |
+|          Rudrata Path          |        Euler Path        |
+|          Balanced Cut          |        Minimum Cut       |
+
 
 # 总结
 
@@ -141,5 +154,6 @@ NP-Complete问题到目前为止还没人能找出其多项式时间内的解，
 - 2016-10-8 完成初稿并发布。
 - 2016-10-10 增加规约的$\le_p$符号、算法导论的关于**NP-Complete**和**NP-Hard**的定义、画出NP问题的总概念图。
 - 2016-10-11 修正几处输入错误。
+- 2016-10-12 增加**NP-Complete**和**P**的问题举例列表。
 
 [^1]: 有一本书就叫「具体数学」
