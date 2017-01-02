@@ -1,17 +1,23 @@
 ---
 title: 2016年12月书单
 tags:
-    - 毛姆短篇小说精选
-    - 十一种孤独
-    - Bigger Leaner Stronger
-categories: 
-    - reading-list
+  - 毛姆短篇小说精选
+  - 十一种孤独
+  - Bigger Leaner Stronger
+categories:
+  - reading-list
 keywords:
-    - 毛姆短篇小说精选
-    - 十一种孤独
-    - Bigger Leaner Stronger
-description: 1. 毛姆短篇小说精选 2. 是一种孤独 3. Bigger Leaner Stronger
+  - 毛姆短篇小说精选
+  - 十一种孤独
+  - Bigger Leaner Stronger
+description: >-
+  1. 毛姆短篇小说精选 2. 是一种孤独 3. Bigger Leaner Stronger 4. Common Sense Investing 5.
+  Invest Like a Pro
+date: 2017-01-02 09:02:50
 ---
+
+
+
 
 # 毛姆短篇小说精选
 
@@ -57,6 +63,31 @@ description: 1. 毛姆短篇小说精选 2. 是一种孤独 3. Bigger Leaner Str
 具体内容参看下面的脑图:
 
 {% asset_img Bigger-Leaner-Stronger.png %}
+
+
+# Common Sense Investing
+
+作者: Rick Van Ness
+
+这是一本投资理财的入门书籍，其中提到的很多感念和原则，在很多同类型的书中都有提到。
+但是，作为美国的理财书籍，它也向我说明了，美国的投资类型其实也是很有限的，基本只有那么几项:
+
+1. Bound
+2. Stock
+3. Fund
+
+其具体脑图如下:
+
+{% asset_img Common-Sense-Investing.png  %}
+
+
+# Invest Like A Pro
+
+作者: Jesse Mecham
+
+同样的理财入门书籍，内容略微要比Common Sense Investing 深入一些，对具体的理财项目有些详细介绍。
+
+{% asset_img Invest-like-a-pro.png  %}
 
 # 参考资料
 
