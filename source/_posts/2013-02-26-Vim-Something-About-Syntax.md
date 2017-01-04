@@ -5,7 +5,7 @@ date: 2013/2/26
 categories: 
     - vim
 tags: 
-    - Vim
+    - vim
     - Markdown
 keywords: Jekyll,Vim,Makrdown,语法高亮,Kramdown
 description: 本文仔细分析了Vim语法高亮的原理，阐述了如何定制一个自己的文件类型，并进行语法高亮。

@@ -2,11 +2,12 @@
 layout: post
 date: 2013/07/04
 title: Vim自动插入文件头部
-categories: Vim
+categories: 
+    - vim
 keywords: Vim,Vim脚本,自动插入
 tags: 
-    - Vim
-    - Vim脚本
+    - vim
+    - vim脚本
 description: Vim一向以可高度定制而著称的，平时在写程序的时候，总是需要插入一些文件的头部信息，每次手打都嫌太麻烦，作为一个coder，所有重复的操作都应该用程序来实现。
 ---
 
