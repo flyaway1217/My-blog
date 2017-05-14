@@ -9,7 +9,6 @@ keywords:
   - Vim配置
   - Vim
 description: Vim的个人配置文件，主要针对Python、Latex的配置。
-comments: false
 date: 2017-05-14 16:15:07
 ---
 
