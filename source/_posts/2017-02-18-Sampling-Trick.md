@@ -41,7 +41,7 @@ date: 2017-02-18 21:26:54
 我们用$p$来表示采样出的元素$y$属于$S$的概率，那么很显然我们有:
 
 $$
-p = Pr[y\in S] = \frac{\vert Y\vert}{\vert S\vert}
+p = Pr[y\in S] = \frac{\vert S\vert}{\vert Y\vert}
 $$
 
 那么，根据采样的方式，我们继续得到:
