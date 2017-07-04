@@ -76,7 +76,7 @@ $$
 \vert S\vert \approx \frac{\vert Y\vert}{N}
 $$
 
-$\Box$
+$\blacksquare$
 
 ## 贝努利分布
 
@@ -93,7 +93,7 @@ $\Box$
 同样的，我们首先用$p$表示任意一个元素$y\in Y$属于$S$的概率，我们有:
 
 $$
-p=Pr[y\in S] = \frac{\vert Y\vert}{\vert S\vert}
+p=Pr[y\in S] = \frac{\vert S\vert}{\vert Y\vert}
 $$
 
 那么，根据这种采样方式，我们有:
@@ -129,7 +129,7 @@ $$
 \vert S\vert \approx \frac{M\vert Y\vert}{N}
 $$
 
-$\Box$
+$\blacksquare$
 
 # 实验
 
