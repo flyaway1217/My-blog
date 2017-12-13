@@ -1,18 +1,21 @@
 ---
 title: 2017年10月书单
-comments: false
 tags:
-    - 苏菲的世界
-    - 浪潮之巅
-    - 文明之光
+  - 苏菲的世界
+  - 浪潮之巅
+  - 文明之光
 categories:
-    - reading-list
+  - reading-list
 keywords:
-    - 苏菲的世界
-    - 浪潮之巅
-    - 文明之光
+  - 苏菲的世界
+  - 浪潮之巅
+  - 文明之光
 description: 1. 苏菲的世界  2. 浪潮之巅  3. 文明之光
+date: 2017-10-29 14:07:26
 ---
+
+
+
 
 # 苏菲的世界
 
