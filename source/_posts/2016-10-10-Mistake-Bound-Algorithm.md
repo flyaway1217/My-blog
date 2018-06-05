@@ -95,7 +95,7 @@ Mistake Bound用一个模型在停止训练前所犯的错误次数来衡量一�
 {% math %}
 \begin{aligned}
 1 = \mid H_n \mid &< \frac{1}{2}\mid H_{n-1} \mid\\
-                  &< \frac{1}{2}\mid H_{n-2} \mid\\
+                  &< \frac{1}{4}\mid H_{n-2} \mid\\
                   &< \cdots\\
                   &< \frac{1}{2^n}\mid H_0 \mid = \frac{1}{2^n}\mid H \mid\\
                   &\Downarrow\\
