@@ -153,9 +153,9 @@ menu:
   about: /about/ || user
   tags: /tags/ || tags
   categories: /categories/ || th
-  #schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
-  #commonweal: /404/ || heartbeat
+  # schedule: /schedule/ || calendar
+  # sitemap: /sitemap.xml || sitemap
+  # commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons / item badges.
 menu_settings:
@@ -554,7 +554,7 @@ disqus:
   enable: true
   shortname: zhouyichu
   count: true
-  lazyload: true
+  lazyload: false
 
 # Changyan
 changyan:
@@ -872,7 +872,7 @@ mermaid:
 
 # Use velocity to animate everything.
 motion:
-  enable: true
+  enable: false
   async: false
   transition:
     # Transition variants:
