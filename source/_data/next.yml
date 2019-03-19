@@ -655,9 +655,9 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-google_analytics: UA-112082293-1
-#  tracking_id:
-#  localhost_ignored: true
+google_analytics: 
+  tracking_id: UA-112082293-1
+  localhost_ignored: true
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster
@@ -672,7 +672,7 @@ google_analytics: UA-112082293-1
 #baidu_site_verification:
 
 # CNZZ count
-#cnzz_siteid:
+cnzz_siteid: 1000067280
 
 # Application Insights
 # See: https://azure.microsoft.com/en-us/services/application-insights
