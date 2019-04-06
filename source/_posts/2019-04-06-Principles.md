@@ -1,13 +1,17 @@
 ---
 title: 「原则」读书笔记
 tags:
-    - 原则
+  - 原则
 categories:
-    - reading-list
+  - reading-list
 keywords:
-    - 原则
+  - 原则
 description: 「原则」读书笔记
+date: 2019-04-06 11:09:50
 ---
+
+
+
 
 |  |  |
 |:-------------:|:--:|
