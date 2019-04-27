@@ -212,8 +212,9 @@ links_layout: block
 #links_layout: inline
 links:
   #Title: http://example.com
-    一路小跑: http://jkyeo.com/
-    Ping Li's Blog: http://pinglinju.github.io/
+    # 一路小跑: http://jkyeo.com/
+    # Ping Li's Blog: http://pinglinju.github.io/
+    Shanbo's Blog: https://cshanbo.github.io/
 
 
 # Sidebar Avatar
