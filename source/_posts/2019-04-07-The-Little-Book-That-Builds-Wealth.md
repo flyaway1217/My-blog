@@ -4,7 +4,7 @@ tags:
   - 投资
   - 经济护城河
 categories:
-  - readling-list
+  - reading-list
 keywords:
   - 投资
   - 经济护城河
